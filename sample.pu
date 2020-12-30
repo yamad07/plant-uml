@@ -1,12 +1,5 @@
-usecase ユーザーが音楽で場所を探す。
-
-actor ユーザー
-boundary マップ画面
-control レコメンド結果取得
-entity 場所候補一覧
-entity 場所詳細一覧
-
-ユーザー -> マップ画面 : アクセス
-マップ画面 -> レコメンド結果取得 : 検索
-レコメンド結果取得 -> 場所候補一覧 : 表示
-場所候補一覧 -> 場所詳細一覧 : 詳細取得
+@startuml
+:Hello world;
+:This is on defined on
+several **lines**;
+@enduml
