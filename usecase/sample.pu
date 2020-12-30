@@ -1,5 +1,4 @@
 @startuml
-:Hello world;
-:This is on defined on
-several **lines**;
+User --> (曲を選択して音楽を検索する)
+User --> (自分のプロフィールから音楽を検索する)
 @enduml
